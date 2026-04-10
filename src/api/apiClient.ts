@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5050/api/', // Local API port
-  // baseURL: 'https://furlable-shaunta-catarrhal.ngrok-free.dev/api/', // ngrok fallback
+  baseURL: 'http://180.235.121.245:8054/api/', // Production Hosting
   headers: {
     'Content-Type': 'application/json',
     'ngrok-skip-browser-warning': '69420', // Bypass Ngrok interstitial
